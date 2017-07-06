@@ -1,0 +1,169 @@
+body {
+    font: 100% "Open Sans", sans-serif;
+    background-color: #fbfafa;
+    color: #555559;
+}
+
+body .white-text {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+header {
+    height: 500px;
+    background-size: cover;
+    background-image: url("../img/header.png");
+}
+
+header .instagram-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 20px;
+    height: 20px;
+}
+
+header .instagram-icon {
+    height: 20px;
+    width: 20px;
+    background: url("../img/instagram-icon.png") no-repeat;
+    padding-right: 5px;
+}
+
+header .instagram-text {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 25%;
+    background-color: #ffffff;
+    font-size: 20px;
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+}
+
+main .intro {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .intro .hotdog-icon {
+    width: 95px;
+    height: 95px;
+    background: url("../img/hotdog-icon.png") no-repeat;
+    padding: 10px 0;
+}
+
+main .intro h1 {
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0 60px;
+}
+
+main .intro button {
+    background-color: #286782;
+    border: none;
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+main .intro button:hover {
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+main .content {
+    display: flex;
+}
+
+main .content .image {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+main .content .hotdog-first {
+    background-image: url("../img/hotdog-first.png");
+}
+
+main .content .hotdog-second {
+    background-image: url("../img/hotdog-second.png");
+}
+
+main .content .hotdog-third {
+    background-image: url("../img/hotdog-third.png");
+}
+
+main .content .description {
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+main .content .description .text {
+    padding-top: 220px;
+    padding-right: 140px;
+    padding-bottom: 220px;
+}
+
+main .content .description .text h2 {
+    font-weight: 800;
+    font-size: 18px;
+    display: inline;
+}
+
+main .content .description .text p {
+    padding: 30px 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+main .content .description .text p .underlined {
+    text-decoration: underline;
+}
+
+main .content .description .dash {
+    padding-top: 220px;
+    padding-left: 115px;
+    padding-right: 20px;
+    font-size: 30px;
+    line-height: calc(18 / 30);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+footer .footer-nav span::after {
+    content: "| ";
+    padding: 0 15px;
+}
+
+footer .footer-nav a {
+    text-decoration: none;
+    color: #555559;
+}
